@@ -1,0 +1,26 @@
+<!-- ! variables -->
+
+variable_name=variable_value
+$variable_name
+
+<!-- ! Conditionals -->
+
+if [[condition]]; then
+    condition
+elif [[condition]]; then
+    condition
+else
+    condition
+fi
+
+*** The options that the condition can take are:
+-eq means equal
+-gt, -lt means greater than and less than
+-z means empty input
+-n means to skip/ignore the newline 
+wc means word count where -m refers to only characters
+
+<!-- ! Loop -->
+while [[condition]]; do
+    conditions
+done

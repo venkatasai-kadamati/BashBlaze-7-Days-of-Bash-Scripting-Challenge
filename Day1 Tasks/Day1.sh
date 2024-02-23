@@ -20,6 +20,8 @@ echo "The sum of $number1 and $number2 is $sum"
 echo "The current date is $(date)"
 echo "The current user is $USER"
 echo "The current working directory is $PWD"
+echo $$ # returns the process id of the current shell
 
 # Task6 : Wildcards
 echo "All the files in the current directory with txt extension are $(ls *.txt)"
+echo $$
